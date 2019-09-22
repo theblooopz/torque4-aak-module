@@ -1,0 +1,8 @@
+<LevelAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="DesertWorld"
+    LevelFile="desert_world.mis"
+    LevelName="Desert World"
+    LevelDescription="Desert World"
+    VersionId="1" />

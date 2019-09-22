@@ -1,0 +1,11 @@
+- motion shadow update rotation issue - possibly new camera class isn't triggering a rotate event so it's not updating the shadows when you move around (https://github.com/GarageGames/Torque3D/pull/1836/files)
+- [maybe fixed?] sometimes the probes don't load and the shadows are super dark
+- UI module doesn't load settings properly (and/or doesn't save them properly)
+- HDR postfx filter is busted so it washes out colors and makes it gray
+- physics plugins cause sliding and going up slope friction issues for AAK character
+- SFXEnvironments not working
+- script asset dependency not working
+- some non-metallic materials look metallic in shadows
+- UI audio volume levels don't work, mouse link sensitivity doesn't work, etc.
+- [fixed] if I change stuff in static object materials in tools and save and press play it screws up the entire scene where nothing loads
+- data/fontCache - needs to be the directory defined in core profile whatever
